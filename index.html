@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PWRHOUR</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Tenor+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <section id="main">
+      <h1> <i class="em em-beers"></i> PWRHOUR <i class="em em-beers"></i> </h1>
+      <article id="intro">
+        <p>
+            The rules for this game really could not be any simpler. Every minute the timer will go off. When the timer goes off you take
+            a shot of beer or whatever the hell you want. No judgements. The challenge is to keep yourself drinking for the whole hour. And
+            please, drink responsibly. <i class="em em-wink"></i>
+        </p>
+
+        <button> START </button>
+      </article>
+
+      <article id="active" class="hidden">
+        <div id="mug">
+          <p id="seconds"></p>
+          <div id="beer"><div class="circle"></div></div>
+          <div id="handle">
+            <div id="handle-fix"></div>
+          </div>
+        </div>
+        <p> Only <span> </span> to go.</p>
+        <button> Give up? </button>
+      </article>
+
+      <article id="complete" class="hidden">
+          <p> Wow! You made it to the end. Congrats to any of you who made it this far. Now if only you could actually get to your computer.
+              If you had fun tweet about the site. Go get drunk with friends. Cheers!
+          </p>
+          <a id="twitter" href="https://twitter.com/intent/tweet?button_hashtag=#PWRHOUR" class="twitter-hashtag-button" data-size="large" data-text="Come drink with us: https://goo.gl/fDjfje" data-show-count="false"></a>
+      </article>
+    </section>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/twitter.js"> </script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
