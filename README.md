@@ -70,7 +70,7 @@ git push origin release
 git checkout -b dev
 ```
 
-Next drop in any files you want to upload into the folder and add your files to the git stage.
+Next drop in any files you want to upload into the folder and add your files to the git stage. Download or copy my deploy.sh file from my repo into your local sites root directory. Then run it with the line below:
 
 ```shell
 bash deploy.sh
